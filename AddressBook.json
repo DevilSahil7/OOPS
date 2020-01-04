@@ -1,0 +1,25 @@
+[ {
+  "fname" : "ana",
+  "lname" : "shinde",
+  "address" : "pune",
+  "city" : "pune",
+  "state" : "maharashtra",
+  "zip" : 455689,
+  "phone" : 1346794613
+}, {
+  "fname" : "neha",
+  "lname" : "kudake",
+  "address" : "panvel",
+  "city" : "mumbai",
+  "state" : "maharashtra",
+  "zip" : 12456532,
+  "phone" : 3265985421
+}, {
+  "fname" : "sahil",
+  "lname" : "kudake",
+  "address" : "panvel",
+  "city" : "mumbai",
+  "state" : "maharashtra",
+  "zip" : 451245,
+  "phone" : 1010250253
+} ]

@@ -1,0 +1,17 @@
+[ {
+  "name" : "pulses",
+  "weight" : 10,
+  "price" : 30.0
+}, {
+  "name" : "rajma",
+  "weight" : 50,
+  "price" : 22.0
+}, {
+  "name" : "wheat",
+  "weight" : 50,
+  "price" : 25.0
+}, {
+  "name" : "bajra",
+  "weight" : 50,
+  "price" : 20.0
+} ]
