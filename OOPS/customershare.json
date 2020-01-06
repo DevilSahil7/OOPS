@@ -1,0 +1,21 @@
+[ {
+  "custName" : "sahil",
+  "noOfShares" : 19,
+  "price" : 150.0
+}, {
+  "custName" : "daisy",
+  "noOfShares" : 3,
+  "price" : 200.0
+}, {
+  "custName" : "leena",
+  "noOfShares" : 4,
+  "price" : 300.0
+}, {
+  "custName" : "priya",
+  "noOfShares" : 20,
+  "price" : 0.0
+}, {
+  "custName" : "ram",
+  "noOfShares" : 0,
+  "price" : 0.0
+} ]

@@ -1,0 +1,13 @@
+[ {
+  "shareName" : "tata",
+  "noOfShare" : 100,
+  "price" : 200.0
+}, {
+  "shareName" : "birla",
+  "noOfShare" : 150,
+  "price" : 100.0
+}, {
+  "shareName" : "icici",
+  "noOfShare" : 125,
+  "price" : 30.0
+} ]

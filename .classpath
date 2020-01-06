@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AddressBook/src"/>
+	<classpathentry kind="src" path="Inventory/src"/>
+	<classpathentry kind="lib" path="AddressBook/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="Inventory/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="output" path="AddressBook/bin"/>
+</classpath>

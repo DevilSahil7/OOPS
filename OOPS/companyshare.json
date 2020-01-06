@@ -1,0 +1,9 @@
+[ {
+  "companyName" : "tata",
+  "noOfShares" : 35,
+  "price" : 35.0
+}, {
+  "companyName" : "reliance",
+  "noOfShares" : 52,
+  "price" : 40.0
+} ]
