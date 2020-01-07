@@ -1,0 +1,11 @@
+[ {
+  "patientName" : "sahil",
+  "patientId" : 111,
+  "mobileNumber" : 123456,
+  "age" : 26
+}, {
+  "patientName" : "mayur",
+  "patientId" : 101,
+  "mobileNumber" : 4589652357,
+  "age" : 26
+} ]

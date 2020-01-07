@@ -1,0 +1,13 @@
+[ {
+  "doctorName" : "nikita",
+  "doctorId" : 102,
+  "specialization" : "ears",
+  "availability" : "morning",
+  "appointment" : 0
+}, {
+  "doctorName" : "kumar",
+  "doctorId" : 101,
+  "specialization" : "nose",
+  "availability" : "morning",
+  "appointment" : 0
+} ]
