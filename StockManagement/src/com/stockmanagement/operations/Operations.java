@@ -23,6 +23,9 @@ public class Operations {
 	}
 
 	public List<StockDetails> removeStock(List<StockDetails> list) {
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getShareName());
+		}
 		System.out.println("Enter name of stock to remove: ");
 		String nameOfStock = Utility.stringInput();
 		for (int i = 0; i < list.size(); i++) {
@@ -36,7 +39,10 @@ public class Operations {
 	}
 
 	public void totalShare(List<StockDetails> list) {
-		System.out.println("Enter stock you want to calculate total: ");
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getShareName());
+		}
+		System.out.println("Enter stock name you want to calculate total: ");
 		String stockName = Utility.stringInput();
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).getShareName().equalsIgnoreCase(stockName)) {

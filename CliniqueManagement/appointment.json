@@ -1,7 +1,50 @@
 [ {
   "doctorName" : "priya",
   "patientId" : 111,
+  "patientName" : null,
   "doctorSpecialization" : "eyes",
   "doctorAvailability" : "morning",
   "doctorAppointment" : 3
+}, {
+  "doctorName" : "shaha",
+  "patientId" : 0,
+  "patientName" : "rahul",
+  "doctorSpecialization" : null,
+  "doctorAvailability" : null,
+  "doctorAppointment" : 0
+}, {
+  "doctorName" : "shaha",
+  "patientId" : 0,
+  "patientName" : "patel",
+  "doctorSpecialization" : null,
+  "doctorAvailability" : null,
+  "doctorAppointment" : 0
+}, {
+  "doctorName" : "nikita",
+  "patientId" : 5,
+  "patientName" : "hemant",
+  "doctorSpecialization" : null,
+  "doctorAvailability" : null,
+  "doctorAppointment" : 1
+}, {
+  "doctorName" : "kumar",
+  "patientId" : 6,
+  "patientName" : "nitin",
+  "doctorSpecialization" : "nose",
+  "doctorAvailability" : "morning",
+  "doctorAppointment" : 1
+}, {
+  "doctorName" : "kumar",
+  "patientId" : 7,
+  "patientName" : "nisha",
+  "doctorSpecialization" : "nose",
+  "doctorAvailability" : "morning",
+  "doctorAppointment" : 2
+}, {
+  "doctorName" : "nikita",
+  "patientId" : 8,
+  "patientName" : "ganesh",
+  "doctorSpecialization" : "ears",
+  "doctorAvailability" : "morning",
+  "doctorAppointment" : 2
 } ]

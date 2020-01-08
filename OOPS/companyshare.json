@@ -1,9 +1,9 @@
 [ {
   "companyName" : "tata",
-  "noOfShares" : 35,
+  "noOfShares" : 30,
   "price" : 35.0
 }, {
   "companyName" : "reliance",
-  "noOfShares" : 52,
+  "noOfShares" : 50,
   "price" : 40.0
 } ]

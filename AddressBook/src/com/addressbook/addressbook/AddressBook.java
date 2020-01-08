@@ -14,13 +14,12 @@ public class AddressBook {
 	public static void main(String[] args) throws IOException {
 		Controller controller = new Controller();
 		Operation operation = new Operation();
-		
+		int choice;
 		do {
 			System.out.println("++++++++++Welcome to Address Book++++++++++");
 			System.out.println();
-			System.out.println("1.Add person detail\n2.Delete person detail\n3.Edit person detail\n4.Sort by zip code\n5.Sort by last name\n6.Get details of specific person");
-			System.out.print("Enter your choice: ");
-			int choice = Utility.integerInput();
+			System.out.println("1.Add person detail\n2.Delete person detail\n3.Edit person detail\n4.Sort by zip code\n5.Sort by last name\n6.Get details of specific person\n7.Exit\nEnter your choice: ");
+			choice = Utility.integerInput();
 			switch(choice) {
 			case 1:
 				List<PersonDetails> read = controller.readFile();
@@ -28,9 +27,12 @@ public class AddressBook {
 				controller.writeFile(list);
 				break;
 			case 2:
+				List<PersonDetails> read1 = controller.readFile();
+				for (int i = 0; i <read1.size() ; i++) {
+					System.out.println(read1.get(i).getFname());
+				}
 				System.out.println("enter first name of user to delete: ");
 				String name = Utility.stringInput();
-				List<PersonDetails> read1 = controller.readFile();
 				List<PersonDetails> list1 = operation.deleteUser(read1,name);
 				controller.writeFile(list1);
 				break;
@@ -57,13 +59,15 @@ public class AddressBook {
 				   break;
 			case 6:
 				 List<PersonDetails> read5 = controller.readFile();
-				 System.out.println("Details are: ");
-				   List<PersonDetails> list5 = operation.getDetails(read5);
-				   
-				  
-				   break;
+				 operation.getDetails(read5);
+				 break;
+			case 7:
+				System.out.println("Thank you!");
+				return;
+				default:
+					System.out.println("Enter correct choice!");
 			}
-		}while(Utility.booleanInput());
+		}while(choice!=7);
 
 	}
 

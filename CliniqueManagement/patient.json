@@ -2,10 +2,48 @@
   "patientName" : "sahil",
   "patientId" : 111,
   "mobileNumber" : 123456,
-  "age" : 26
+  "age" : 26,
+  "assignDocotor" : null
 }, {
   "patientName" : "mayur",
   "patientId" : 101,
   "mobileNumber" : 4589652357,
-  "age" : 26
+  "age" : 26,
+  "assignDocotor" : null
+}, {
+  "patientName" : "rahul",
+  "patientId" : 0,
+  "mobileNumber" : 0,
+  "age" : 0,
+  "assignDocotor" : "d"
+}, {
+  "patientName" : "patel",
+  "patientId" : 0,
+  "mobileNumber" : 0,
+  "age" : 0,
+  "assignDocotor" : "lksjd"
+}, {
+  "patientName" : "hemant",
+  "patientId" : 5,
+  "mobileNumber" : 5568956,
+  "age" : 32,
+  "assignDocotor" : "nikita"
+}, {
+  "patientName" : "nitin",
+  "patientId" : 6,
+  "mobileNumber" : 1245789865,
+  "age" : 40,
+  "assignDocotor" : "kumar"
+}, {
+  "patientName" : "nisha",
+  "patientId" : 7,
+  "mobileNumber" : 45787542514,
+  "age" : 20,
+  "assignDocotor" : "kumar"
+}, {
+  "patientName" : "ganesh",
+  "patientId" : 8,
+  "mobileNumber" : 2545487541,
+  "age" : 23,
+  "assignDocotor" : "nikita"
 } ]

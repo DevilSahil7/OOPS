@@ -3,11 +3,23 @@
   "doctorId" : 102,
   "specialization" : "ears",
   "availability" : "morning",
-  "appointment" : 0
+  "appointment" : 2
 }, {
   "doctorName" : "kumar",
   "doctorId" : 101,
   "specialization" : "nose",
   "availability" : "morning",
+  "appointment" : 2
+}, {
+  "doctorName" : "patel",
+  "doctorId" : 103,
+  "specialization" : "all",
+  "availability" : "evening",
   "appointment" : 0
+}, {
+  "doctorName" : "shaha",
+  "doctorId" : 104,
+  "specialization" : "joints",
+  "availability" : "afternoon",
+  "appointment" : 1
 } ]

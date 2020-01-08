@@ -14,7 +14,7 @@ public class StockManagement {
 	public static void main(String[] args) throws IOException {
 		Operations operations = new Operations();
 		Controller controller = new Controller();
-		
+		int choice;
 		List<StockDetails> list = controller.readFile();
 		System.out.println("++++++Stock Details++++++");
 		for(StockDetails sd : list) {
@@ -22,8 +22,9 @@ public class StockManagement {
 			System.out.println("Total stock value of "+sd.getShareName().toUpperCase()+" for "+sd.getNoOfShare()+" shares is "+sd.getNoOfShare()*sd.getPrice());
 		}
 		System.out.println();
+		do {
 		System.out.println("1.Add stock\n2.Remove stock\n3.Calculate total share\n4.Calculate total share in market\nEnter your choice: ");
-		int choice = Utility.integerInput();
+		choice = Utility.integerInput();
 		switch(choice) {
 		case 1:
 			List<StockDetails> read1 = controller.readFile();
@@ -43,7 +44,13 @@ public class StockManagement {
 			List<StockDetails> read4 = controller.readFile();
 			operations.totalShareMarket(read4);
 			break;
+		case 5:
+			System.out.println("Thank you!");
+			return;
+			default:
+				System.out.println("Enter correct choice!");
 		}
+		}while(choice!=5);
 
 	}
 

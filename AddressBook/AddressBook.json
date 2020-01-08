@@ -1,12 +1,4 @@
 [ {
-  "fname" : "ana",
-  "lname" : "shinde",
-  "address" : "pune",
-  "city" : "pune",
-  "state" : "maharashtra",
-  "zip" : 455689,
-  "phone" : 1346794613
-}, {
   "fname" : "neha",
   "lname" : "kudake",
   "address" : "panvel",
@@ -22,4 +14,28 @@
   "state" : "maharashtra",
   "zip" : 451245,
   "phone" : 1010250253
+}, {
+  "fname" : "nitin",
+  "lname" : "patil",
+  "address" : "govandi",
+  "city" : "mumbai",
+  "state" : "maharashtra",
+  "zip" : 451245,
+  "phone" : 125487421
+}, {
+  "fname" : "mohit",
+  "lname" : "chouhan",
+  "address" : "mumbai",
+  "city" : "mumbai",
+  "state" : "maharashtra",
+  "zip" : 457812,
+  "phone" : 5487986554
+}, {
+  "fname" : "kjhfs",
+  "lname" : "kjhsdf",
+  "address" : "kjshdf",
+  "city" : "kjsdhf",
+  "state" : "kjhdf",
+  "zip" : 0,
+  "phone" : 0
 } ]

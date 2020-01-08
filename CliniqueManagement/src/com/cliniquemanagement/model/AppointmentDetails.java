@@ -1,9 +1,12 @@
 package com.cliniquemanagement.model;
 
+
+
 public class AppointmentDetails {
 
 	public String doctorName;
 	public int patientId;
+	public String patientName;
 	public String doctorSpecialization;
 	public String doctorAvailability;
 	public int doctorAppointment;
@@ -38,12 +41,23 @@ public class AppointmentDetails {
 	public void setDoctorAppointment(int doctorAppointment) {
 		this.doctorAppointment = doctorAppointment;
 	}
+	
+	
+	public String getPatientName() {
+		return patientName;
+	}
+	public void setPatientName(String patientName) {
+		this.patientName = patientName;
+	}
+	
+	
 	@Override
 	public String toString() {
-		return "AppointmentDetails [doctorName=" + doctorName + ", patientId=" + patientId + ", doctorSpecialization="
-				+ doctorSpecialization + ", doctorAvailability=" + doctorAvailability + ", doctorAppointment="
-				+ doctorAppointment + "]";
+		return "AppointmentDetails [doctorName=" + doctorName + ", patientId=" + patientId + ", patientName="
+				+ patientName + ", doctorSpecialization=" + doctorSpecialization + ", doctorAvailability="
+				+ doctorAvailability + ", doctorAppointment=" + doctorAppointment + "]";
 	}
+	
 	
 	
 }

@@ -1,22 +1,7 @@
 [ {
-  "companyName" : "reliance",
-  "noOfCompanyShares" : 52,
-  "customerName" : "priya",
-  "noOfCustomerShares" : 20,
-  "datetime" : {
-    "dayOfYear" : 6,
-    "dayOfWeek" : "MONDAY",
-    "month" : "JANUARY",
-    "dayOfMonth" : 6,
-    "year" : 2020,
-    "monthValue" : 1,
-    "hour" : 18,
-    "minute" : 47,
-    "second" : 2,
-    "nano" : 965000000,
-    "chronology" : {
-      "calendarType" : "iso8601",
-      "id" : "ISO"
-    }
-  }
+  "companyName" : "tata",
+  "noOfCompanyShares" : 0,
+  "customerName" : "ram",
+  "noOfCustomerShares" : 0,
+  "datetime" : null
 } ]

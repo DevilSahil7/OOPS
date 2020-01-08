@@ -26,6 +26,9 @@ public class Operations {
 	}
 
 	public List<Properties> removeInventory(List<Properties> list) {
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getName());
+		}
 		boolean find = false;
 		System.out.println("Enter Inventory to be removed: ");
 		String name = Utility.stringInput();
@@ -47,7 +50,10 @@ public class Operations {
 
 	}
 	
-	public List<Properties> calculations(List<Properties> list){
+	public void calculations(List<Properties> list){
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getName());
+		}
 		System.out.println("Enter inventory to calculate total: ");
 		String inventoryName = Utility.stringInput();
 		
@@ -62,7 +68,7 @@ public class Operations {
 		int a = Utility.integerInput();
 		if (a == 1)
 			calculations(list);
-		return list;
+		
 		
 	}
 }
