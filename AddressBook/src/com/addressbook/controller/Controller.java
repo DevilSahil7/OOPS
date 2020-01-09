@@ -13,22 +13,28 @@ import org.codehaus.jackson.type.TypeReference;
 
 import com.addressbook.model.PersonDetails;
 
-
+/**
+ * Purpose: To read and write json file from storage
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Controller {
 
 	PersonDetails person = new PersonDetails();
-	static ObjectMapper mapper;
-	static {
-		mapper = new ObjectMapper();
+	static ObjectMapper mapper = new ObjectMapper(); // using jackson mapper to map the data with specified file
+	File file = new File("AddressBook.json"); // accessing json file
+
+	public List<PersonDetails> readFile() throws JsonParseException, JsonMappingException, IOException { // reading json
+																											// file
+		List<PersonDetails> person = mapper.readValue(file, new TypeReference<List<PersonDetails>>() { // mapping data
+																										// with file
+		});
+		return person; // returning list of person
 	}
-	File file = new File("AddressBook.json");
-	
-	public List<PersonDetails> readFile() throws JsonParseException, JsonMappingException, IOException{
-		List<PersonDetails> person = mapper.readValue(file, new TypeReference <List<PersonDetails>>() {});
-		return person;
-	}
-	
-	public void writeFile(List<PersonDetails> listOfPerson) throws JsonGenerationException, JsonProcessingException, IOException {
-		mapper.defaultPrettyPrintingWriter().writeValue(file, listOfPerson);
+
+	public void writeFile(List<PersonDetails> listOfPerson) // writing data to json file
+			throws JsonGenerationException, JsonProcessingException, IOException {
+		mapper.defaultPrettyPrintingWriter().writeValue(file, listOfPerson); // mappping data with json file
 	}
 }

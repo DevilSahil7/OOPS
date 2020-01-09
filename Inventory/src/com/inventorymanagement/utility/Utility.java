@@ -1,10 +1,18 @@
 package com.inventorymanagement.utility;
 
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import com.inventorymanagement.model.Properties;
 
+/**
+ * Purpose: Utility for code reusability
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class Utility {
 
 	static Scanner sc = new Scanner(System.in);
@@ -30,6 +38,16 @@ public class Utility {
 	
 	public static float floatInput() {
 		return sc.nextFloat();
+	}
+	
+	public static String stringValidation(String string) {
+		Pattern pattern = Pattern.compile("^[a-zA-Z]*$");
+		if (!pattern.matcher(string).matches()) {
+			throw new InputMismatchException();
+
+		} else {
+			return string;
+		}
 	}
 	
 	

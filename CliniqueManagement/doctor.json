@@ -22,4 +22,10 @@
   "specialization" : "joints",
   "availability" : "afternoon",
   "appointment" : 1
+}, {
+  "doctorName" : null,
+  "doctorId" : 0,
+  "specialization" : null,
+  "availability" : null,
+  "appointment" : 0
 } ]

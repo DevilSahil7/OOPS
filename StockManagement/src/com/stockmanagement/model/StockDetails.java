@@ -1,5 +1,11 @@
 package com.stockmanagement.model;
 
+/**
+ * Purpose: To set and get values for particular fields
+ * 
+ * @author Sahil Kudake
+ *
+ */
 public class StockDetails {
 
 	public String shareName;
