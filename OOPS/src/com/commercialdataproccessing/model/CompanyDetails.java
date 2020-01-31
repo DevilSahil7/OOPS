@@ -1,11 +1,5 @@
 package com.commercialdataproccessing.model;
 
-/**
- * Purpose: To set and get data to available fields
- * 
- * @author Sahil Kudake
- *
- */
 public class CompanyDetails {
 
 	public String companyName;

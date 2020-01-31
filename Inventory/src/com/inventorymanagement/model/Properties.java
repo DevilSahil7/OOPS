@@ -1,11 +1,5 @@
 package com.inventorymanagement.model;
 
-/**
- * Purpose: To set and the data to fields
- * 
- * @author Sahil Kudake
- *
- */
 public class Properties {
 
 	String name;

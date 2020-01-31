@@ -8,12 +8,12 @@ import java.util.Scanner;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 
-import com.cliniquemanagement.controller.Controller;
-import com.cliniquemanagement.model.AppointmentDetails;
-import com.cliniquemanagement.model.DoctorDetails;
-import com.cliniquemanagement.model.PatientDetails;
-import com.cliniquemanagement.operations.Operations;
-import com.cliniquemanagement.utility.Utility;
+import com.cliniquemanagement.manageclinique.controller.Controller;
+import com.cliniquemanagement.manageclinique.model.AppointmentDetails;
+import com.cliniquemanagement.manageclinique.model.DoctorDetails;
+import com.cliniquemanagement.manageclinique.model.PatientDetails;
+import com.cliniquemanagement.manageclinique.operations.Operations;
+import com.cliniquemanagement.manageclinique.utility.Utility;
 
 /**
  * Purpose: To perform clinique operations

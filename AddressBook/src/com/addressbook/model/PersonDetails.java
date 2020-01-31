@@ -1,11 +1,5 @@
 package com.addressbook.model;
 
-/**
- * Purpose: POJO class to set and get values of different fields
- * 
- * @author Sahil Kudake
- *
- */
 public class PersonDetails {
 
 	private String fname;

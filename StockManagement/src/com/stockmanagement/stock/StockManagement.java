@@ -5,9 +5,9 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import com.stockmanagement.controller.Controller;
-import com.stockmanagement.model.StockDetails;
-import com.stockmanagement.operations.Operations;
+import com.stockmanagement.stock.controller.Controller;
+import com.stockmanagement.stock.model.StockDetails;
+import com.stockmanagement.stock.operations.Operations;
 
 /**
  * Purpose: To manage stock reposrt of company and users

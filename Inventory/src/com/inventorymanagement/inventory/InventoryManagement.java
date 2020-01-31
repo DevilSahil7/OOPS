@@ -5,10 +5,10 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import com.inventorymanagement.controller.Controller;
-import com.inventorymanagement.model.Properties;
-import com.inventorymanagement.operations.Operations;
-import com.inventorymanagement.utility.Utility;
+import com.inventorymanagement.inventory.controller.Controller;
+import com.inventorymanagement.inventory.model.Properties;
+import com.inventorymanagement.inventory.operations.Operations;
+import com.inventorymanagement.inventory.utility.Utility;
 
 /**
  * Purpose: To manage inventories

@@ -5,12 +5,6 @@ import java.util.Scanner;
 
 import java.util.regex.Pattern;
 
-/**
- * Purpose: Utility for code reusaability
- * 
- * @author Sahil Kudake
- *
- */
 public class Utility {
 
 	static Scanner sc = new Scanner(System.in);

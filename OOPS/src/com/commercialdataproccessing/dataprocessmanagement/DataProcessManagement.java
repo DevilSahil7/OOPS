@@ -9,11 +9,11 @@ import java.util.Scanner;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 
-import com.commercialdataproccessing.controller.Controller;
-import com.commercialdataproccessing.model.CompanyDetails;
-import com.commercialdataproccessing.model.CustomerDetails;
-import com.commercialdataproccessing.model.TransactionDetails;
-import com.commercialdataproccessing.operations.Operations;
+import com.commercialdataproccessing.dataprocessmanagement.controller.Controller;
+import com.commercialdataproccessing.dataprocessmanagement.model.CompanyDetails;
+import com.commercialdataproccessing.dataprocessmanagement.model.CustomerDetails;
+import com.commercialdataproccessing.dataprocessmanagement.model.TransactionDetails;
+import com.commercialdataproccessing.dataprocessmanagement.operations.Operations;
 
 /**
  * Purpose: To manage data processing of the stocks
