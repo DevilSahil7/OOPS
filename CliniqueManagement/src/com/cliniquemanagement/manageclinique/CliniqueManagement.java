@@ -13,7 +13,6 @@ import com.cliniquemanagement.manageclinique.model.AppointmentDetails;
 import com.cliniquemanagement.manageclinique.model.DoctorDetails;
 import com.cliniquemanagement.manageclinique.model.PatientDetails;
 import com.cliniquemanagement.manageclinique.operations.Operations;
-import com.cliniquemanagement.manageclinique.utility.Utility;
 
 /**
  * Purpose: To perform clinique operations
@@ -23,6 +22,7 @@ import com.cliniquemanagement.manageclinique.utility.Utility;
  */
 public class CliniqueManagement {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
 		Controller controller = new Controller();
 		Operations operations = new Operations();

@@ -8,10 +8,12 @@ package com.oops.utility;
  */
 public class QueueusingLinkedListUtility {
 
+	@SuppressWarnings("rawtypes")
 	static Node head;
 
 	public static class Node<E> {
 		E data;
+		@SuppressWarnings("rawtypes")
 		Node next;
 
 		public Node(E data) {
@@ -21,7 +23,7 @@ public class QueueusingLinkedListUtility {
 	}
 
 	public static <E> void enqueue(E data) {
-		Node temp;
+		Node<?> temp;
 		Node node = new Node(data);
 		if (head == null) {
 			head = node;

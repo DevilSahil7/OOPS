@@ -23,6 +23,7 @@ import com.commercialdataproccessing.dataprocessmanagement.operations.Operations
  */
 public class DataProcessManagement {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
 		Controller controller = new Controller();
 		Operations operations = new Operations();

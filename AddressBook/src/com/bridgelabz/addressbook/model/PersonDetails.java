@@ -8,6 +8,7 @@ package com.bridgelabz.addressbook.model;
  */
 public class PersonDetails {
 
+
 	private String fname;
 	private String lname;
 	private String address;

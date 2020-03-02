@@ -1,7 +1,6 @@
 package com.commercialdataproccessing.dataprocessmanagement.model;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * Purpose: To set and get data to available fields

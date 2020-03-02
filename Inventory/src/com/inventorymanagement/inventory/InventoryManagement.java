@@ -8,7 +8,6 @@ import java.util.Scanner;
 import com.inventorymanagement.inventory.controller.Controller;
 import com.inventorymanagement.inventory.model.Properties;
 import com.inventorymanagement.inventory.operations.Operations;
-import com.inventorymanagement.inventory.utility.Utility;
 
 /**
  * Purpose: To manage inventories
@@ -18,6 +17,7 @@ import com.inventorymanagement.inventory.utility.Utility;
  */
 public class InventoryManagement {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 		Controller controller = new Controller();
 		Operations operations = new Operations();

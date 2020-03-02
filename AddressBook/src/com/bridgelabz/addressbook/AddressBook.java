@@ -18,6 +18,7 @@ import com.bridgelabz.addressbook.utility.Utility;
  */
 public class AddressBook {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException, InputMismatchException {
 		Controller controller = new Controller();	//controller object to access fields in controller
 		Operation operation = new Operation();	//operation object to access fields in operation

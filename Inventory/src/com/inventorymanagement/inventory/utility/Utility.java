@@ -1,11 +1,8 @@
 package com.inventorymanagement.inventory.utility;
 
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
-import com.inventorymanagement.inventory.model.Properties;
 
 /**
  * Purpose: Utility for code reusability

@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 /**
- * Purpose: Utility for code reusability
+ * Purpose: Utility for code re-usability
  * 
  * @author Sahil Kudake
  *

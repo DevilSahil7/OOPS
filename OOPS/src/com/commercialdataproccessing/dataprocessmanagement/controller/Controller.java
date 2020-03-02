@@ -36,6 +36,7 @@ public class Controller {
 		return read; // returning list of company data
 	}
 
+	@SuppressWarnings("deprecation")
 	public void writeFileCompany(List<CompanyDetails> list)
 			throws JsonGenerationException, JsonMappingException, IOException { //writing company details file in json file
 		mapper.defaultPrettyPrintingWriter().writeValue(file1, list); //mapping data with json file
@@ -47,6 +48,7 @@ public class Controller {
 		return read; // returning list of customer data
 	}
 
+	@SuppressWarnings("deprecation")
 	public void writeFileCustomer(List<CustomerDetails> list)
 			throws JsonGenerationException, JsonMappingException, IOException { //writing company details file in json file
 		mapper.defaultPrettyPrintingWriter().writeValue(file2, list); //mapping data with json file
@@ -58,6 +60,7 @@ public class Controller {
 		return read; // returning list of transaction data
 	}
 
+	@SuppressWarnings("deprecation")
 	public void writeFileTransaction(List<TransactionDetails> list)
 			throws JsonGenerationException, JsonMappingException, IOException { //writing transaction details file in json file
 		mapper.defaultPrettyPrintingWriter().writeValue(file3, list); //mapping data with json file

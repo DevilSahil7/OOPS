@@ -39,6 +39,7 @@ public class Controller {
 		return read; //returning list of doctor data
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void writeFileDoc(List<DoctorDetails> docList) throws JsonGenerationException, JsonMappingException, IOException {//writing doctor details file
 		mapper.defaultPrettyPrintingWriter().writeValue(docFile, docList);	//writing doctor data into file
 	}
@@ -48,6 +49,7 @@ public class Controller {
 		return read; //returning list of patient data
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void writeFilePat(List<PatientDetails> patList) throws JsonGenerationException, JsonMappingException, IOException {//writing patient details file
 		mapper.defaultPrettyPrintingWriter().writeValue(patFile, patList);	//writing patient data into file
 	}
@@ -57,6 +59,7 @@ public class Controller {
 		return read;// returning list of appointments
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void writeFileAppoint(List<AppointmentDetails> appointList) throws JsonGenerationException, JsonMappingException, IOException {//writing appointment file
 		mapper.defaultPrettyPrintingWriter().writeValue(appointFile, appointList);	//writing appointment data into file
 	}

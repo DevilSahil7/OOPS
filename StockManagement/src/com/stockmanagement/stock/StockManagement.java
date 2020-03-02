@@ -17,6 +17,7 @@ import com.stockmanagement.stock.operations.Operations;
  */
 public class StockManagement {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 		Operations operations = new Operations();
 		Controller controller = new Controller();
